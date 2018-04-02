@@ -1,5 +1,5 @@
 # Why creating this Repo
-* To add a feature to enable transparent background in gVim in Windows 10 like XShell using _**Alt + R**_
+* To add a feature to enable transparent background in gVim in Windows 10 like XShell using **_Alt + R_**
 
 # By what means
 * using the feature supported by [_vimtweak.dll_ on vim.org](https://www.vim.org/scripts/script.php?script_id=687)
@@ -13,3 +13,6 @@
     nnoremap  <A-r> :call ToggleVimTweakSetParam()<cr>
     inoremap  <A-r> <C-o>:call ToggleVimTweakSetParam()<cr>
     ```
+
+# NOTE
+**_make sure vimtweak.dll is in the same folder with gvim.exe_**

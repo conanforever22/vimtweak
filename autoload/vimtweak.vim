@@ -1,5 +1,5 @@
 let g:bIsGVimTransparent = 0
-function ToggleVimTweakSetParam()
+function g:ToggleVimTweakSetParam()
     if g:bIsGVimTransparent == 0
         call libcallnr("vimtweak.dll", "SetAlpha", 200)
         let g:bIsGVimTransparent = 1

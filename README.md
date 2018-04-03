@@ -10,9 +10,9 @@
 3. add a shortcut like below to toggle it
     ```vim
     " toggle transparent background in gVIM
-    nnoremap  <A-r> :call ToggleVimTweakSetParam()<cr>
-    inoremap  <A-r> <C-o>:call ToggleVimTweakSetParam()<cr>
+    noremap  <A-r> :call vimtweak#ToggleVimTweakSetParam()<cr>
     ```
 
 # NOTE
-**_make sure vimtweak.dll is in the same folder with gvim.exe_**
+* **_make sure vimtweak.dll is in the same folder with gvim.exe_**
+* put _encoding_ and _fileencodings_ before the key map setting, or **Alt** key can not be mapped.
